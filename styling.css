@@ -21,33 +21,68 @@
  }
  .nav-item:hover {
   border-bottom: solid 1px rgba(252, 90, 9, 0.7);
-
-  }
+ }
   .nav-item{
     margin-right:35px;
   }
-  .header p{
-    font-weight: bold;
-    color: white;
-    font-size: 40px;
-    text-align: center;
-    margin-top: 20px;
-  }
+  
 
  /*Style jumbotron */
  /*limit width of icons section */
 
  /*style icons using grid system */
- .featured{
-  text-align: center;
+ .jumbotron{
+  background-color: transparent;
   color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 2.5px;
+ }
+ .header{
+  margin-bottom: 20px;
+ }
+ 
+ .featured{
+  font-size: 15px ;
  }
 
 .featured img{
-width: 40px;
+
+height: 100px;
+}
+
+.featured .container{
+  max-width: 1000px;
 }
  /*style contact button */
-
+.contact{
+margin-top: 30px;
+margin-bottom: 100px;
+}
+.btn{
+  background-color: rgba(252, 90, 9, 0.7);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  letter-spacing: 1.5px;
+}
+.btn:hover{
+  background-color:rgba(252, 90, 9);
+}
  /* style footer*/
-
+.footer{
+  background-color: rgba(0,0,0,0.5);
+  color: whitesmoke;
+  text-align: center;
+  padding: 20px;
+}
  /*media queries to chnage icons size in small devices*/
+ @media (max-width: 768px) {
+  .featured img{
+
+    height: 70px;
+    }
+ }
