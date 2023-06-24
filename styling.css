@@ -16,6 +16,10 @@
  }
 
  /*navigation bar */
+ nav a:hover {
+  border-bottom: solid 1px green;
+
+  }
 
  /*Style jumbotron */
  /*limit width of icons section */
