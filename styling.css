@@ -1,0 +1,29 @@
+/*add backgroung image set it to cover, andd font family
+ */
+ body,html{
+  background-image: url("images/background.jpeg");
+  background-size: 100% 100%;
+  height: 100%; 
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+    
+ }
+
+ /*brand image */
+ .logo{
+  width: 40px;
+  height: 40px;
+ }
+
+ /*navigation bar */
+
+ /*Style jumbotron */
+ /*limit width of icons section */
+
+ /*style icons using grid system */
+
+ /*style contact button */
+
+ /* style footer*/
+
+ /*media queries to chnage icons size in small devices*/
